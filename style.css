@@ -110,7 +110,7 @@ body {
     transition: background-color 0.2s;
 }
 .navtop {
-	background-color: #2f3947;
+	background-color: #496e55;
 	height: 60px;
 	width: 100%;
 	border: 0;
@@ -121,33 +121,37 @@ body {
 	width: 1000px;
 	height: 100%;
 }
-.navtop div h1, .navtop div a {
+.navtop #home, .navtop .nav-link {
 	display: inline-flex;
 	align-items: center;
+    float: right;
 }
-.navtop div h1 {
-	flex: 1;
-	font-size: 24px;
+#home {
+    width: 50px;
+	font-size: 30px;
 	padding: 0;
 	margin: 0;
-	color: #eaebed;
+	color: white;
 	font-weight: normal;
     font-family: 'Lobster', sans-serif;
+    text-decoration: none;
 }
-.navtop div a {
+.navtop .nav-link {
 	padding: 0 20px;
 	text-decoration: none;
-	color: #c1c4c8;
+	color: white;
+    font-family: 'Playfair Display', sans-serif;
 	font-weight: bold;
+    float: right;
 }
 .navtop div a i {
 	padding: 2px 8px 0 0;
 }
 .navtop div a:hover {
-	color: #eaebed;
+	color: #f7b2a1;
 }
 body.loggedin {
-	background-color: #f3f4f7;
+	background-color: #f4f6f4;
 }
 .content {
 	width: 1000px;
@@ -159,6 +163,7 @@ body.loggedin {
 	font-size: 22px;
 	border-bottom: 1px solid #e0e0e3;
 	color: #4a536e;
+    font-family: 'Playfair Display', sans-serif;
 }
 .content > p, .content > div {
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
